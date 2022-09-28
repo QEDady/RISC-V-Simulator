@@ -1,0 +1,15 @@
+main:
+addi x12,x0,3
+addi x13,x0,3
+jal x0, mult
+
+exit:
+ebreak
+
+mult:
+addi x5,x0,0
+loop:
+bge x5,x13,exit
+add x10,x10,x12
+addi x5,x5,1
+jal x0, loop

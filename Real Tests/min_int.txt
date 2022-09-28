@@ -1,0 +1,26 @@
+addi a0, x0, 40
+addi a1, x0, 5
+jal ra, min
+ebreak
+
+min:
+addi t0, zero, 0
+lw t1, 0(a0)
+
+ForLoop:
+slli t2, t0, 2
+add t2, t2, a0
+lw t2, 0(t2)
+blt t1, t2, Pass
+addi t1, t2, 0
+
+Pass:
+addi t0, t0, 1
+bne t0, a1, ForLoop
+addi a0, t1, 0
+jalr zero, 0(ra)
+
+
+
+
+

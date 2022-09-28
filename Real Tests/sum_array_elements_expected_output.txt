@@ -1,0 +1,2 @@
+The function should sum the array elements existing in memory
+In this case, the asnwer would be 17 saved at x3

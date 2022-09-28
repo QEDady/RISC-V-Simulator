@@ -1,0 +1,4 @@
+The fibonacci function is a well known series of numbers in which each number is the sum of the two that precede it.
+
+
+In this case, the answer of fib(8) would be 21 saved at x10 (a0)

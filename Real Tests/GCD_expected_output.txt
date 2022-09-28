@@ -1,0 +1,4 @@
+The GCD function gets the greatest common divisor of the two numbers.
+
+
+In this case, the GCD of 16 and 80 would be 16 saved at x10 (a0)
